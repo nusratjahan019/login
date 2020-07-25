@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    height:290px;
+    width:280px ;
+    background: #FFFFFF;
+    padding: 15px;
+    border: 2px solid transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow:5px 5px 20px 0px ;
+    
+
+}
+.mem{
+    color: #37A000;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+input{
+    padding: 15px;
+
+}
+::placeholder{
+    font-size: 16px;
+    color: #877575;
+
+}
+.user{
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid #E8E8E8;
+    background: #E8E8E8;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.sub{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    background: #3AA104;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-bottom: 29px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    text-align: center;
+    
+
+
+}
+.cre{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cre a{
+    text-decoration: none;
+    color: #80984F;
+    font-size: 15px;
+}
