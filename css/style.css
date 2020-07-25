@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #E9EBEE;
+}
+.form{
+    height:350px;
+    width:395px;
+    background: #FFF8F9;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute ;
+    box-shadow: 4px 5px 23px 0px;
+
+}
+input{
+    padding: 15px;
+}
+::placeholder{
+    font-size: 16px;
+    color: gray;
+}
+.user{
+     width:360px ;
+     height: 50px;
+     margin: auto;
+     border-radius: 6px;
+     border: 1px solid #E9EBEE ;
+     margin-bottom: 10px;
+    
+
+}
+.login{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background: #1B78F2;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    
+    
+}
+.forg{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.forg a{
+    text-decoration: none;
+    color: #1B78F2;
+    font-size: 15px;
+}
+hr{
+    border: 1px solid #E9EBEE;
+    margin-bottom: 30px;
+}
+.cre{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+    border-bottom: 30px;
+    border: 1px solid #44B72D ;
+    background: #44B72D;
+    color: white;
+
+}
+.cre a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
